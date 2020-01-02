@@ -1,0 +1,187 @@
+#Titres{
+  position:absolute;
+  top:1vw;
+  left:5vw;
+  font-style: italic;
+}
+Button{
+  background-color: #030474;
+  border: none;
+  color: white;
+  padding: 0.3vw 0.6vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2vw;
+  border-radius: 7px;
+}
+Button:hover{
+  background-color: #33CCCC;
+  padding: 0.3vw 0.9vw;
+  font-weight: bold;
+}
+#Contenu{
+  top:1vw;
+  right: 8vw;
+  color:#080C2A;
+  position: absolute;
+
+
+}
+#titreContenu{
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: bold;
+  font-size: 2vw;
+  text-align: center;
+}
+
+#barreProgressionVide{
+  position: relative;
+  width:20vw;
+  margin-top: 4vw;
+	background:#00FFF9;
+  border: solid;
+  border-color: #10183C;
+  border-radius: 10px;
+  color: #FFFFFF;
+  text-align: center;
+
+}
+
+#barre75{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 15vw;
+  background:#10183C;
+  animation-duration: 2.2s;
+  animation-name: avancement;
+  animation-iteration-count: 1;
+}
+
+#barre50{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 10vw;
+  background:#10183C;
+  animation-duration: 2.2s;
+  animation-name: avancement;
+  animation-iteration-count: 1;
+
+}
+
+#barre25{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 5vw;
+  background:#10183C;
+  animation-duration: 2.2s;
+  animation-name: avancement;
+  animation-iteration-count: 1;
+}
+
+#contenuCompetences{
+  position: absolute;
+  margin-top: 2vw;
+  font-family: "Lucida Console", Monaco, monospace;
+  color:#080C2A;
+
+
+}
+#contenuExperience{
+  position: relative;
+  width: 20vw;
+  margin-top: 0.6vw;
+  margin-bottom: 1vw;
+  text-align: center;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  padding: 0.5vw;
+}
+#contenuFormation{
+  position: relative;
+  width: 20vw;
+  margin-top: 0.6vw;
+  margin-bottom: 1vw;
+  text-align: center;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+
+#date{
+  font-size: 1.5vw;
+  color: #33CCCC;
+
+}
+
+@KeyFrames avancement{
+  from {
+    width: 0vw;
+  }
+
+  to {
+    width: 15vw, 10vw, 5vw;
+  }
+}
+
+.cModal {
+  text-align: center;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  opacity:0;
+  pointer-events: none;
+  overflow: auto;
+
+}
+.cModal:target {
+  opacity:1;
+  pointer-events: auto;
+}
+.cModal > div {
+  max-width: 70vw;
+  position: relative;
+  margin: 1% auto;
+  padding: 1vw 1vw 2.5vw 1vw;
+  border-radius: 2px;
+  background: #fff;
+
+}
+
+#presentationExperience{
+  text-align: left;
+  font-family: Monospace;
+  font-size: 1vw;
+}
+#linkExp{
+  position: relative;
+  text-decoration: none;
+  background-color: black;
+  top:1vw;
+  padding: 0.6vw;
+  color: #FFFFFF;
+  border-radius: 50px;
+  border: solid;
+  border-width: 0.1vw;
+  border-color: black;
+}
+
+#linkExp:hover{
+  animation: animationBtn 1s linear alternate infinite;
+}
+
+@keyframes animationBtn {
+  from {
+    background-color: black;
+    border-radius: 50px;
+  }
+  to {
+
+    background-color: white;
+    color:black;
+
+  }
+}
