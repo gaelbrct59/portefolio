@@ -3,7 +3,7 @@ import "./components/css/containerWhite.css"
 
 export default () => {
   return(
-    <div id="container" style={{fontSize:'20vw'}}>
+    <div id="container" style={{fontSize:'1vw'}}>
       TODO
     </div>
 
