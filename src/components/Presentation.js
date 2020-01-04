@@ -34,7 +34,7 @@ const presentationStyle = {
   marginLeft:'auto',
   marginRight:'auto',
   marginBottom:'auto',
-
+  
   width:'80%',
   fontFamily:'Trebuchet MS',
   fontSize:'1.2em',
