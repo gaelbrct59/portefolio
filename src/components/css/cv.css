@@ -11,8 +11,10 @@ Button{
   padding: 0.3vw 0.6vw;
   text-align: center;
   text-decoration: none;
-  font-size: 2vw;
+  font-size: 2.5vw;
   border-radius: 7px;
+  min-height: 20px;
+
 }
 Button:hover{
   background-color: #33CCCC;
@@ -21,7 +23,7 @@ Button:hover{
 }
 #Contenu{
   top:1vw;
-  right: 8vw;
+  right: 4vw;
   color:#080C2A;
   position: absolute;
 
@@ -30,14 +32,15 @@ Button:hover{
 #titreContenu{
   font-family: "Lucida Console", Monaco, monospace;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 1.5em;
   text-align: center;
 }
 
 #barreProgressionVide{
   position: relative;
   width:20vw;
-  margin-top: 4vw;
+  min-width: 160px;
+  margin-bottom: 4em;
 	background:#00FFF9;
   border: solid;
   border-color: #10183C;
@@ -50,7 +53,7 @@ Button:hover{
 #barre75{
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  width: 15vw;
+  width: 75%;
   background:#10183C;
   animation-duration: 2.2s;
   animation-name: avancement;
@@ -60,7 +63,7 @@ Button:hover{
 #barre50{
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  width: 10vw;
+  width: 50%;
   background:#10183C;
   animation-duration: 2.2s;
   animation-name: avancement;
@@ -71,24 +74,34 @@ Button:hover{
 #barre25{
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  width: 5vw;
+  width: 25%;
   background:#10183C;
   animation-duration: 2.2s;
   animation-name: avancement;
   animation-iteration-count: 1;
 }
 
+@KeyFrames avancement{
+  from {
+    width: 0vw;
+  }
+
+  to {
+    width: 75%, 50%, 25%;
+  }
+}
+
 #contenuCompetences{
   position: absolute;
-  margin-top: 2vw;
+  margin-top: 17%;
   font-family: "Lucida Console", Monaco, monospace;
   color:#080C2A;
-
-
+  font-size: 85%;
 }
 #contenuExperience{
   position: relative;
-  width: 20vw;
+  width: 30vw;
+  min-width: 150px;
   margin-top: 0.6vw;
   margin-bottom: 1vw;
   text-align: center;
@@ -98,7 +111,8 @@ Button:hover{
 }
 #contenuFormation{
   position: relative;
-  width: 20vw;
+  width: 30vw;
+  min-width: 150px;
   margin-top: 0.6vw;
   margin-bottom: 1vw;
   text-align: center;
@@ -108,20 +122,12 @@ Button:hover{
 
 
 #date{
-  font-size: 1.5vw;
+  font-size: 1.2em;
   color: #33CCCC;
 
 }
 
-@KeyFrames avancement{
-  from {
-    width: 0vw;
-  }
 
-  to {
-    width: 15vw, 10vw, 5vw;
-  }
-}
 
 .cModal {
   text-align: center;

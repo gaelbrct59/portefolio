@@ -58,6 +58,7 @@ const topBarStyle = {
     opacity:'85%',
     fontFamily:'Courier, monospace',
     zIndex:"5",
+    height:"50px"
 };
 
 

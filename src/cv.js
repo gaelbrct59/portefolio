@@ -81,7 +81,7 @@ const Competences = () => (
       </FadeInDiv>
       <FadeInDiv id="barreProgressionVide">
         <FadeInDiv id="contenuCompetences">PHP | Visual Basic | HTML | C#</FadeInDiv>
-        <div id="barre50">Apprentis</div>
+        <div id="barre50">Apprenti</div>
       </FadeInDiv>
       <FadeInDiv id="barreProgressionVide">
         <FadeInDiv id="contenuCompetences">AMPL | C | Assembleur</FadeInDiv>
@@ -305,7 +305,7 @@ const Pdf = () => (
     <FadeInDiv id="contenuExperience" style={{animationDelay:'0.8s'}}>
       <a href="#modalvoirPDF" id="linkExp">Voir le PDF</a>
     </FadeInDiv>
-    <FadeInDiv id="contenuExperience" style={{animationDelay:'1s'}}>
+    <FadeInDiv id="contenuExperience" style={{animationDelay:'1s', whiteSpace: 'nowrap'}}>
       <a href={cv} id="linkExp" download='BRICOUT_GAEL_CV.pdf'>Télécharger le PDF</a>
     </FadeInDiv>
 
