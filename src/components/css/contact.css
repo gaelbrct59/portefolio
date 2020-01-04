@@ -2,8 +2,8 @@
   margin-left: 5vw;
   background-color: #007BB6;
   border-radius: 10px;
-  width: 8em;
-  height: 8em;
+  width: 10vw;
+  height: 10vw;
   transition: width 1s;
   overflow: hidden;
   white-space: nowrap;
@@ -16,8 +16,8 @@
   top: 1.5em;
   background-color: #F8DB10;
   border-radius: 10px;
-  width: 8em;
-  height: 8em;
+  width: 10vw;
+  height: 10vw;
   transition: width 1s;
   overflow: hidden;
   white-space: nowrap;
@@ -25,10 +25,10 @@
 
 }
 #containerGrowMail:hover{
-  width: 40em;
+  width: 50vw;
 }
 #containerGrow:hover{
-  width: 40em;
+  width: 50vw;
 }
 
 #linkContact{
