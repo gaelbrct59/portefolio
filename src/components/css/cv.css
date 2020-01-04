@@ -29,22 +29,23 @@ Button:hover{
 #titreContenu{
   font-family: "Lucida Console", Monaco, monospace;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 5vmin;
   text-align: center;
+  padding: 2vmin;
 }
 
 #barreProgressionVide{
   position: relative;
   width:20vw;
   min-width: 160px;
-  margin-bottom: 4em;
+  margin-bottom: 8VH;
 	background:#00FFF9;
   border: solid;
   border-color: #10183C;
   border-radius: 10px;
   color: #FFFFFF;
   text-align: center;
-
+  right: 6vw;
 }
 
 #barre75{
@@ -90,7 +91,7 @@ Button:hover{
 
 #contenuCompetences{
   position: absolute;
-  margin-top: 17%;
+  margin-top: 5VH;
   font-family: "Lucida Console", Monaco, monospace;
   color:#080C2A;
   font-size: 85%;
