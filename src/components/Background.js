@@ -18,7 +18,7 @@ export default function (){
         }}
         how={100} /* Pass the number of images Sky will render chosing randomly */
         time={10} /* time of animation */
-        size={'100px'} /* size of the rendered images */
+        size={'5vw'} /* size of the rendered images */
         background={'linear-gradient(to right,#121B34, #000080)'}
       />
   )
