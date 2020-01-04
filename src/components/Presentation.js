@@ -16,8 +16,7 @@ export default function Presentation(){
               <RollInDiv><img src={photo} alt="Photo" id="pic" style={imageStyle} /></RollInDiv>
 
 
-              <p> IMPORTANT : Il s'agit de la version Beta du site. Il se peut que certains bugs surviennent, et je suis au courant des problème de "responsivité" sur les mobiles.</p>
-
+              <p> IMPORTANT : Il s'agit de la version Beta du site. Il se peut que certains bugs surviennent, et je suis au courant des problèmes de "responsivité" sur les mobiles.</p>
               <p>Je m’appelle Gaël BRICOUT et je suis un étudiant de 22ans en troisième année de Licence informatique à l’université de Lille. </p>
   						<p>Passionné par l'informatique, et plus particulièrement, depuis quelques années, par le développement, j'aimerais orienter mon avenir dans les métiers du E-services (le Front-end, les IHM, le développement mobile) et développeur full-stack.</p>
   						<p>Je suis quelqu'un de créatif, passionné et déterminé. J'aime mener mes projets à terme, jusqu'à obtenir le résultat le plus parfait et abouti, possible.</p>
@@ -32,13 +31,11 @@ export default function Presentation(){
 
 const presentationStyle = {
   textAlign:'center',
-  padding:'0.5vw',
   marginLeft:'auto',
   marginRight:'auto',
-  width:'60vw',
+  width:'80%',
   fontFamily:'Trebuchet MS',
-  fontSize:'20px',
-  boxShadow: '10px 1px 15px #555',
+  fontSize:'1.2em',
   borderRadius:'6px',
   backgroundColor:'rgba(2000,2000,2000,0.92)',
   height:'26em',
@@ -46,7 +43,7 @@ const presentationStyle = {
   overflowX: 'auto'
 };
 const imageStyle = {
-  width:'14vw',
+  width:'10em',
   display:'block',
   float: 'initial',
   marginLeft:'auto',
@@ -56,8 +53,8 @@ const imageStyle = {
 }
 
 const presentationTitreStyle = {
-  fontSize:'50px',
-  marginTop:'50px',
+  fontSize:'2em',
+  marginTop:'2em',
   marginLeft:'5vw',
   textShadow:'0 0 20px #00FFFC,2px 3px 3px #141414, 0 0 100px #00D4D1',
   color:'#00FFFC'
