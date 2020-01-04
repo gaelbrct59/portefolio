@@ -23,11 +23,10 @@ Button:hover{
 }
 #Contenu{
   top:1vw;
-  right: 4vw;
+  right: 5%;
   color:#080C2A;
   position: absolute;
-
-
+  max-width: 65%;
 }
 #titreContenu{
   font-family: "Lucida Console", Monaco, monospace;
@@ -124,7 +123,6 @@ Button:hover{
 #date{
   font-size: 1.2em;
   color: #33CCCC;
-
 }
 
 
