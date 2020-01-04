@@ -3,6 +3,7 @@
   color:#FFFFFF;
   position: relative;
   padding: 1em 2vw;
+
 }
 
 #link:hover{
@@ -19,6 +20,10 @@
     margin: 0;
     list-style: none;
     color:white;
+    background-color: #0A0E1B;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 
 }
 #menu-deroulant {
@@ -33,8 +38,7 @@
 #menu-deroulant ul li {
 /* on enlève ce comportement pour les liens du sous menu */
     display: inherit;
-    padding-top: 1vw;
-    background-color: #0A0E1B;
+    padding-top: 3VH;
 
 
 }
@@ -47,15 +51,17 @@
     opacity:'85%';
     font-family:Courier, monospace;
     padding: 0.5vw;
-    height: 2vw;
+    height: 4VH;
 
 }
+
 #menu-deroulant a:hover{
   transition-duration: 0.5s;
   color: blue;
   border-color:#FFFFFF;
   background-color: #04050B;
   font-weight: bold;
+
 }
 
 
@@ -65,6 +71,7 @@
     left: -999em;
     text-align: left;
     z-index: 1000;
+
 }
 #menu-deroulant li:hover ul {
 /* Au survol des li du menu on replace les sous menus */
