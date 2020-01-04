@@ -16,7 +16,7 @@ export default function Presentation(){
               <RollInDiv><img src={photo} alt="Photo" id="pic" style={imageStyle} /></RollInDiv>
 
 
-              <p> IMPORTANT : Il s'agit de la version Beta du site. Il se peut que certains bugs surviennent, et je suis au courant des problèmes de "responsivité" sur les mobiles.</p>
+              <p> IMPORTANT : Il s'agit de la version Beta du site. Il peut y avoir des dysfonctionnements, notamment sur la 'responsivité' du site. Je vous prie de m'excuser.</p>
               <p>Je m’appelle Gaël BRICOUT et je suis un étudiant de 22ans en troisième année de Licence informatique à l’université de Lille. </p>
   						<p>Passionné par l'informatique, et plus particulièrement, depuis quelques années, par le développement, j'aimerais orienter mon avenir dans les métiers du E-services (le Front-end, les IHM, le développement mobile) et développeur full-stack.</p>
   						<p>Je suis quelqu'un de créatif, passionné et déterminé. J'aime mener mes projets à terme, jusqu'à obtenir le résultat le plus parfait et abouti, possible.</p>
