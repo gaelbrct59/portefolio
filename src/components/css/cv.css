@@ -1,14 +1,12 @@
 #Titres{
-  position:absolute;
-  top:1vw;
-  left:5vw;
-  font-style: italic;
+  position: absolute;
+  left: 1vw;
+
 }
 Button{
   background-color: #030474;
   border: none;
   color: white;
-  padding: 0.3vw 0.6vw;
   text-align: center;
   text-decoration: none;
   font-size: 2.5vw;
@@ -18,8 +16,8 @@ Button{
 }
 Button:hover{
   background-color: #33CCCC;
-  padding: 0.3vw 0.9vw;
   font-weight: bold;
+  cursor: pointer;
 }
 #Contenu{
   top:1vw;

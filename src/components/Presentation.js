@@ -33,14 +33,13 @@ const presentationStyle = {
   textAlign:'center',
   marginLeft:'auto',
   marginRight:'auto',
-  marginBottom:'auto',
-  
   width:'80%',
   fontFamily:'Trebuchet MS',
   fontSize:'1.2em',
   borderRadius:'6px',
   backgroundColor:'rgba(2000,2000,2000,0.92)',
-  height:'26em',
+  height:'33vw',
+  minHeight:'500px',
   overflow:'scroll',
   overflowX: 'auto'
 };
