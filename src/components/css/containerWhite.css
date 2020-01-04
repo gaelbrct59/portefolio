@@ -4,13 +4,13 @@
   margin-left:auto;
   margin-right:auto;
   width:80%;
-  height:30vw;
-  min-height: 400px;
+  height:65VH;
+
   font-family:Trebuchet MS;
   font-size:1.2em;
   box-shadow: 10px 1px 15px #555;
   border-radius:6px;
   background-color:rgba(2000,2000,2000,0.92);
   position:relative;
-  overflow: auto;
+  overflow: scroll;
 }

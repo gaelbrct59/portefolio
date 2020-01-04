@@ -38,8 +38,7 @@ const presentationStyle = {
   fontSize:'1.2em',
   borderRadius:'6px',
   backgroundColor:'rgba(2000,2000,2000,0.92)',
-  height:'33vw',
-  minHeight:'500px',
+  height:'66VH',
   overflow:'scroll',
   overflowX: 'auto'
 };
