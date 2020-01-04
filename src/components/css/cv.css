@@ -38,7 +38,8 @@ Button:hover{
   position: relative;
   width:20vw;
   min-width: 160px;
-  margin-bottom: 8VH;
+  margin-bottom: 9VH;
+  margin-top: 8VH;
 	background:#00FFF9;
   border: solid;
   border-color: #10183C;
@@ -94,7 +95,8 @@ Button:hover{
   margin-top: 5VH;
   font-family: "Lucida Console", Monaco, monospace;
   color:#080C2A;
-  font-size: 85%;
+  font-size: 2.4vmin;
+
 }
 #contenuExperience{
   position: relative;

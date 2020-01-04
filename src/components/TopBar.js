@@ -25,7 +25,7 @@ export class TopBar extends Component{
             <ul id="menu-deroulant">
               <li>Autres
                 <ul>
-            			<li><Link to="/jeux">Jeux créés</Link></li>
+            			<li><Link to="/jeux">Projets</Link></li>
             			<li><Link to="/readme">README.md</Link></li>
             		</ul>
                 </li>
