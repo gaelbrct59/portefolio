@@ -125,7 +125,7 @@ const Experiences = () => (
         <div>
           <h3> Developpement d'une borne d'acceuil pour les utilisateurs du centre, et y ajouter des statistiques de clics </h3>
           <p> Voir le cahier des charges : </p>
-          <iframe src={cdc} width='1000' height='400' />
+          <embed src={cdc} width='100%' height='400' />
 
 
           <h3> Solution choisie : </h3>
@@ -275,7 +275,7 @@ const Experiences = () => (
       <a href="#fermer" id="linkExp">Fermer</a>
     </footer>
       <header>
-        <h2>Autre types de stages (non informatiques)</h2>
+        <h2>Autres types de stages (non informatiques)</h2>
       </header>
       <div>
         <h3>CDD Société Point doc - 2017</h3>
