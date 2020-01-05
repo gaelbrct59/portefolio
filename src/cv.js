@@ -125,7 +125,7 @@ const Experiences = () => (
         <div>
           <h3> Developpement d'une borne d'acceuil pour les utilisateurs du centre, et y ajouter des statistiques de clics </h3>
           <p> Voir le cahier des charges : </p>
-          <embed src={cdc} width='100%' height='400' />
+          <iframe src={cdc} width='100%' height='400' />
 
 
           <h3> Solution choisie : </h3>
