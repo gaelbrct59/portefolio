@@ -1,7 +1,6 @@
 import React from 'react';
 import { Component } from 'react';
-import { Spring } from 'react-spring/renderprops';
-import { BrowserRouter, Match, Link, Route } from 'react-router-dom';
+import { BrowserRouter, Link, Route } from 'react-router-dom';
 import MyCV from '../cv.js';
 import Contact from '../contact';
 import Notes from '../notesConcept';

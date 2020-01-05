@@ -1,5 +1,4 @@
 import React from 'react';
-import { Spring } from 'react-spring/renderprops';
 import photo from './img/photo_rond_gael.png'
 import { rollIn } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
