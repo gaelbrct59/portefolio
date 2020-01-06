@@ -1,8 +1,20 @@
 #Titres{
-  position: absolute;
   left: 1vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 60VH;
+  justify-content: space-between;
+  float: left;
 
 }
+#separateurButtonContenu{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+
 Button{
   background-color: #030474;
   border: none;
@@ -20,10 +32,11 @@ Button:hover{
   cursor: pointer;
 }
 #Contenu{
-  top:1vw;
-  right: 5%;
-  color:#080C2A;
+  float: right;
   position: absolute;
+  width: 50%;
+  margin-left: 50%;
+  color:#080C2A;
   max-width: 65%;
 }
 #titreContenu{
@@ -36,7 +49,7 @@ Button:hover{
 
 #barreProgressionVide{
   position: relative;
-  width:20vw;
+  width:40vw;
   min-width: 160px;
   margin-bottom: 9VH;
   margin-top: 8VH;
@@ -46,7 +59,7 @@ Button:hover{
   border-radius: 10px;
   color: #FFFFFF;
   text-align: center;
-  right: 6vw;
+  align-items: center;
 }
 
 #barre75{

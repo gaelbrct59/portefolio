@@ -33,15 +33,17 @@ class CV extends React.Component{
     render () {
     return (
       <div id="container">
-        <div id="Titres">
-          <p><button onClick={() => this.changeDiv(<Formation />)}>FORMATION</button></p> <br />
-          <p><button onClick={() => this.changeDiv(<Competences />)}>COMPÉTENCES</button></p> <br />
-          <p><button onClick={() => this.changeDiv(<Experiences />)}>EXPÉRIENCES</button></p> <br />
-          <p><button onClick={() => this.changeDiv(<Pdf />)}>TÉLÉCHARGER PDF</button></p>
-        </div>
-        <div id="Contenu">
-        {/*Affiche l'état, ici, affiche le contenu de la div, qui fait appel à la fonction dans "onclick" ci-dessus*/}
-          {this.state.div}
+        <div id="separateurButtonContenu">
+          <div id="Titres">
+            <p><button onClick={() => this.changeDiv(<Formation />)}>FORMATION</button></p>
+            <p><button onClick={() => this.changeDiv(<Competences />)}>COMPÉTENCES</button></p>
+            <p><button onClick={() => this.changeDiv(<Experiences />)}>EXPÉRIENCES</button></p>
+            <p><button onClick={() => this.changeDiv(<Pdf />)}>PDF</button></p>
+          </div>
+          <div id="Contenu">
+          {/*Affiche l'état, ici, affiche le contenu de la div, qui fait appel à la fonction dans "onclick" ci-dessus*/}
+            {this.state.div}
+          </div>
         </div>
       </div>
     )
@@ -76,11 +78,11 @@ const Competences = () => (
     </ZoomInUpDiv>
     <div>
       <FadeInDiv id="barreProgressionVide">
-        <FadeInDiv id="contenuCompetences">Java | JavaScript | CSS | ReactJS | Python | SQL</FadeInDiv>
+        <FadeInDiv id="contenuCompetences">Java | Photofiltre | CSS | ReactJS | Python | SQL</FadeInDiv>
         <div id="barre75">Confirmé</div>
       </FadeInDiv>
       <FadeInDiv id="barreProgressionVide">
-        <FadeInDiv id="contenuCompetences">PHP | Visual Basic | HTML | C#</FadeInDiv>
+        <FadeInDiv id="contenuCompetences">PHP | Visual Basic | HTML | C# | JavaScript | Photoshop</FadeInDiv>
         <div id="barre50">Apprenti</div>
       </FadeInDiv>
       <FadeInDiv id="barreProgressionVide">
