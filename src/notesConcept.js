@@ -12,7 +12,7 @@ export default function (){
         <br /><br />
         La section "jeux" n'est pas encore implémentée, il s'agira ici des différents projets, en cours ou personnels.
         <br /><br />
-        Le site n'est pas encore totalement responsive. Pour l'instant, il n'est, pour l'instant, seulement bien programmé pour un ordinateur.
+        Le site n'est pas encore totalement responsive. Il n'est, pour l'instant, seulement bien programmé pour un ordinateur.
       </div>
     )
 
