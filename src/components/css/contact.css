@@ -42,8 +42,6 @@
   transform: translateX(60vw) rotate(360deg);
 }
 
-
-
 #containerGrowMail:hover{
   width: 70vw;
 }
@@ -61,9 +59,8 @@
 }
 
 #mail{
-  vertical-align: 60%;
-  margin-left: 10vw;
-  vertical-align: 120%;
+  vertical-align: 115%;
+  margin-left: 15vw;
   color:#FFFFFF;
   font-weight: bold;
   font-size: 3vw;
@@ -85,7 +82,7 @@
 
 
 #img{
-  height: 10vw;
+  height: 21vh;
   width: 11vw;
 }
 
