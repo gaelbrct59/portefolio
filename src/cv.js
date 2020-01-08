@@ -78,16 +78,16 @@ const Competences = () => (
     </ZoomInUpDiv>
     <div>
       <FadeInDiv id="barreProgressionVide">
+      <div id="remplissage" class="a75">Confirmé</div>
         <FadeInDiv id="contenuCompetences">Java | Photofiltre | CSS | ReactJS | Python | SQL</FadeInDiv>
-        <div id="barre75">Confirmé</div>
       </FadeInDiv>
       <FadeInDiv id="barreProgressionVide">
+        <div id="remplissage" class="a50">Apprenti</div>
         <FadeInDiv id="contenuCompetences">PHP | Visual Basic | HTML | C# | JavaScript | Photoshop</FadeInDiv>
-        <div id="barre50">Apprenti</div>
       </FadeInDiv>
       <FadeInDiv id="barreProgressionVide">
+        <div id="remplissage" class="a25">Notions</div>
         <FadeInDiv id="contenuCompetences">AMPL | C | Assembleur</FadeInDiv>
-        <div id="barre25">Notions</div>
       </FadeInDiv>
     </div>
   </div>

@@ -62,40 +62,28 @@ Button:hover{
   align-items: center;
 }
 
-#barre75{
+#remplissage{
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  background:#10183C;
+  animation-duration: 2.2s;
+  animation-name: avancement;
+  animation-iteration-count: 1;
+}
+.a75{
   width: 75%;
-  background:#10183C;
-  animation-duration: 2.2s;
-  animation-name: avancement;
-  animation-iteration-count: 1;
 }
-
-#barre50{
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+.a50{
   width: 50%;
-  background:#10183C;
-  animation-duration: 2.2s;
-  animation-name: avancement;
-  animation-iteration-count: 1;
-
 }
-
-#barre25{
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+.a25{
   width: 25%;
-  background:#10183C;
-  animation-duration: 2.2s;
-  animation-name: avancement;
-  animation-iteration-count: 1;
 }
+
 
 @KeyFrames avancement{
   from {
-    width: 0vw;
+    width: 0%;
   }
 
   to {
@@ -105,7 +93,7 @@ Button:hover{
 
 #contenuCompetences{
   position: absolute;
-  margin-top: 5VH;
+  margin-top: 1vmin;
   font-family: "Lucida Console", Monaco, monospace;
   color:#080C2A;
   font-size: 2.4vmin;
