@@ -4,6 +4,16 @@
   border-radius: 10px;
 }
 #explicationsProjet{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2vmin;
+}
+#explication_nuitInfo{
+  padding-right: 2vw;
   width: 15vw;
-  font-size: 2.5vmin;
+}
+
+#explication_hashCode{
+  width: 20vw;
 }
