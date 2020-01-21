@@ -79,15 +79,15 @@ const Competences = () => (
     <div>
       <FadeInDiv id="barreProgressionVide">
       <div id="remplissage" class="a75">Confirmé</div>
-        <FadeInDiv id="contenuCompetences">Java | Photofiltre | CSS | ReactJS | Python | SQL</FadeInDiv>
+        <FadeInDiv id="contenuCompetences">Java | Photofiltre | HTML | CSS | ReactJS | Python | SQL</FadeInDiv>
       </FadeInDiv>
       <FadeInDiv id="barreProgressionVide">
         <div id="remplissage" class="a50">Apprenti</div>
-        <FadeInDiv id="contenuCompetences">PHP | Visual Basic | HTML | C# | JavaScript | Photoshop</FadeInDiv>
+        <FadeInDiv id="contenuCompetences">PHP | Visual Basic | C# | JavaScript | Photoshop</FadeInDiv>
       </FadeInDiv>
       <FadeInDiv id="barreProgressionVide">
         <div id="remplissage" class="a25">Notions</div>
-        <FadeInDiv id="contenuCompetences">AMPL | C | Assembleur</FadeInDiv>
+        <FadeInDiv id="contenuCompetences">AMPL | C | Haskell | Prolog</FadeInDiv>
       </FadeInDiv>
     </div>
   </div>
