@@ -5,7 +5,7 @@ import MyCV from '../cv.js';
 import Contact from '../contact';
 import Notes from '../notesConcept';
 import Presentation from './Presentation';
-import Jeux from '../jeux';
+import Jeux from '../projets';
 import './css/styleTopBar.css'
 
 export class TopBar extends Component{
@@ -24,7 +24,7 @@ export class TopBar extends Component{
             <ul id="menu-deroulant">
               <li>Autres
                 <ul>
-            			<li><Link to="/jeux">Projets</Link></li>
+            			<li><Link to="/projets">Projets</Link></li>
             			<li><Link to="/readme">README.md</Link></li>
             		</ul>
                 </li>
@@ -37,7 +37,7 @@ export class TopBar extends Component{
           <Route exact path="/" component={Presentation}/>
           <Route path="/CV" component={MyCV} />
           <Route path="/readme" component={Notes} />
-          <Route path="/jeux" component={Jeux} />
+          <Route path="/projets" component={Jeux} />
           <Route path="/contact" component={Contact} />
         </div>
       </BrowserRouter>

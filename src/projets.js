@@ -21,6 +21,9 @@ export default () => {
         <div id="explication_hashCode">
           A venir : Concours de programmation Google <a href ="https://www.tomsguide.fr/le-concours-google-hash-code-est-de-retour/" target="_blank"> Google Hash Code </a>
         </div>
+        <canvas id="canvas" width="500px" height="500px"
+
+        />
       </div>
     </div>
 
